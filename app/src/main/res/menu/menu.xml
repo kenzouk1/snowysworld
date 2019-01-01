@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/filter"
+        android:icon="@drawable/ic_filter"
+        android:title="@string/filter"
+        app:showAsAction="ifRoom">
+        <menu
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+            <group
+                android:id="@+id/filter_group"
+                android:checkableBehavior="single">
+                <item
+                    android:id="@+id/all"
+                    android:checked="true"
+                    android:icon="@drawable/ic_love_16px"
+                    android:title="@string/filter_all" />
+                <item
+                    android:id="@+id/origin"
+                    android:icon="@drawable/ic_marker_flag_pink_24px"
+                    android:title="@string/filter_origin" />
+                <item
+                    android:id="@+id/home"
+                    android:icon="@drawable/ic_marker_push_pin_pink_24px"
+                    android:title="@string/filter_home" />
+                <item
+                    android:id="@+id/home_stay"
+                    android:icon="@drawable/ic_marker_ball_pink_24px"
+                    android:title="@string/filter_home_stay" />
+                <item
+                    android:id="@+id/hotel"
+                    android:icon="@drawable/ic_marker_ball_pink_24px"
+                    android:title="@string/filter_hotel" />
+                <item
+                    android:id="@+id/vacation"
+                    android:icon="@drawable/ic_marker_ball_chartreuse_24px"
+                    android:title="@string/filter_vacation" />
+                <item
+                    android:id="@+id/restaurant"
+                    android:icon="@drawable/ic_marker_ball_chartreuse_24px"
+                    android:title="@string/filter_restaurant" />
+                <item
+                    android:id="@+id/grooming"
+                    android:icon="@drawable/ic_marker_ball_azure_24px"
+                    android:title="@string/filter_grooming" />
+                <item
+                    android:id="@+id/vet"
+                    android:icon="@drawable/ic_marker_ball_azure_24px"
+                    android:title="@string/filter_vet" />
+            </group>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/add"
+        android:icon="@drawable/ic_add_location_20dp"
+        android:title="@string/add"
+        app:showAsAction="ifRoom" />
+
+
+    <item
+        android:id="@+id/search"
+        android:icon="@drawable/ic_search_20dp"
+        android:title="@string/search"
+        app:showAsAction="ifRoom" />
+
+    <item android:id="@+id/help"
+        android:icon="@drawable/ic_add"
+        android:title="@string/help" />
+</menu>

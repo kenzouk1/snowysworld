@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fragment xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/map"
+    android:name="com.google.android.gms.maps.SupportMapFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MapsActivity">
+
+
+    <Button
+        android:id="@+id/add_location_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|bottom"
+        android:layout_marginBottom="16dp"
+        android:background="@android:color/black"
+        android:fontFamily="@font/caveat_regular"
+        android:onClick="addLocationButtonOnClick"
+        android:paddingLeft="28dp"
+        android:paddingTop="8dp"
+        android:paddingRight="28dp"
+        android:paddingBottom="8dp"
+        android:text="@string/add_location"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="28sp"
+        android:visibility="gone" />
+
+
+    <ImageView
+        android:id="@+id/add_location_pin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:contentDescription="@null"
+        android:src="@drawable/ic_marker_black_32px"
+        android:visibility="gone" />
+
+</fragment>
+
+    <!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--xmlns:tools="http://schemas.android.com/tools"-->
+<!--android:layout_width="match_parent"-->
+<!--android:layout_height="match_parent" >-->
+
+<!--<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--xmlns:tools="http://schemas.android.com/tools"-->
+    <!--android:id="@+id/map"-->
+    <!--android:name="com.google.android.gms.maps.SupportMapFragment"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--tools:context=".MapsActivity">-->
+
+    <!--<Button-->
+        <!--android:id="@+id/add_location_button"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="center|bottom"-->
+        <!--android:layout_marginBottom="16dp"-->
+        <!--android:background="@android:color/black"-->
+        <!--android:fontFamily="@font/caveat_regular"-->
+        <!--android:onClick="addLocationButtonOnClick"-->
+        <!--android:paddingLeft="28dp"-->
+        <!--android:paddingTop="8dp"-->
+        <!--android:paddingRight="28dp"-->
+        <!--android:paddingBottom="8dp"-->
+        <!--android:text="@string/add_location"-->
+        <!--android:textAllCaps="false"-->
+        <!--android:textColor="@android:color/white"-->
+        <!--android:textSize="28sp"-->
+        <!--android:visibility="gone" />-->
+
+<!--</FrameLayout>-->
+
+<!--<ImageView-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_centerInParent="true"-->
+    <!--android:src="@drawable/ic_okay_48px" />-->
+
+<!--</RelativeLayout>-->
+

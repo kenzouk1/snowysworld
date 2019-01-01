@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Snowy\'s Kennels</string>
+    <string name="title_activity_maps">Snowy\'s Kennels</string>
+    <string name="filter">Filter</string>
+    <string name="add">Add a location</string>
+    <string name="search">Search</string>
+    <string name="help">help</string>
+    <string name="add_location">Add location</string>
+    <string name="filter_all">Everything matters...</string>
+    <string name="filter_origin">Where the magic begins</string>
+    <string name="filter_home">Home sweet home</string>
+    <string name="filter_home_stay">Stay with auntie</string>
+    <string name="filter_hotel">Comfy hotel room</string>
+    <string name="filter_grooming">Bath time</string>
+    <string name="filter_vet">Healthy check-up</string>
+    <string name="filter_vacation">Happy vacation</string>
+    <string name="filter_restaurant">Yummie restaurant</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_add_location">New Location...</string>
+
+    <string-array name="type_arrays">
+        <item>Origin</item>
+        <item>Home</item>
+        <item>Hotel</item>
+        <item>Vacation</item>
+        <item>Home stay</item>
+        <item>Grooming</item>
+        <item>Vet</item>
+    </string-array>
+</resources>
